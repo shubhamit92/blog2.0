@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin: 20px 5px;
+    gap: 30px;
+}
+
+.card-container{
+    width: 600px;
+    border:none;
+    border-radius: 15px;
+    position: relative;
+    
+}
+.card-content{
+    position: absolute;
+    top: 7px;
+    left: 20px;
+    color: white;
+    padding: 5px 25px;
+}
+.msg{
+    margin-bottom: 0;
+}
+.title{
+    width: 23vw;
+    margin: 0;
+}
+
+.img{
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.btn{
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    bottom: 30px;
+    left: 34px;
+}
+
+.suggestion-box{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.suggestion-card{
+    width: 350px;
+    display: flex;
+   
+    margin: 10px;
+    align-items: flex-start;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+}
+.suggestion-content{
+    margin-left: 15px;
+    padding: -2px 10px;
+
+}
+
+.img-2{
+    width: 140px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 10px 5px;
+}
+
+.btn-2{
+    
+    border: 1px solid black;
+    background-color: #fff;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 15px;
+
+}

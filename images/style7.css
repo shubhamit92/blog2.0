@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    display: flex;
+    margin: 20px 15px;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.card{
+    width: 600px;
+    border-radius: 10px;
+    position: relative;
+    border: none;
+}
+.img{
+    width: 100%;
+    height: 310px;
+    border-radius: 10px;
+}
+
+
+.header{
+    position: absolute;
+    top:0;
+    margin: 30px;
+    color: white;
+    
+}
+
+
+
+.title {
+    margin: 0;
+   
+}
+.msg{
+    margin-bottom: 0;
+}
+.btn{
+    position: absolute;
+    bottom: 25px;
+    left: 18px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: none;
+}
+
+.suggestion-box{
+    display: flex;
+    margin: 20px 15px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.suggestion-card{
+    width: 370px;
+    
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 10px;
+}
+.img-2{
+    width: 140px;
+    height: 160px;
+    border-radius: 25px;
+    
+}
+.suggestion-content{
+    padding: 10px 15px;
+}
+
+.btn-2{
+    
+        border: 1px solid black;
+        background-color: #fff;
+        padding: 8px 14px;
+        border-radius: 8px;
+        cursor: pointer;
+
+}
+
+
